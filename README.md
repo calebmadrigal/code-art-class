@@ -21,6 +21,7 @@ In order to follow along with this class, you must have:
 
 * Python installed: <https://www.python.org/downloads/>
 * Pillow (the Python Image Library): <https://pillow.readthedocs.io/en/stable/>
-* A text editor which you can use to edit `.py` files (recommendations: TODO)
+    - This command should install it: `pip install Pillow`
+* A text editor which you can use to edit `.py` files (I recommend using [VS Code](https://code.visualstudio.com)).
 
 
