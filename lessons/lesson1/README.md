@@ -8,7 +8,7 @@ In this lesson, we'll learn how to draw a point:
 
 In the computer world, all pictures are made of pixels. Pixels are addressed by 2 numbers: X and Y. For example, the top left pixel in a picture is `(X=1, Y=1)`, or simply `(1, 1)`. To move to the right, you increase the value of `X`, and to move down, you increase the value of `Y`. Here's what this looks like:
 
-![screen coordinates](../../images/screen_coordinates.png)
+<img src="../../images/screen_coordinates.png" width=500>
 
 ## Challenge
 
