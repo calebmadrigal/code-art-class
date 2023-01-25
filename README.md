@@ -13,6 +13,8 @@ In this class, we'll learn how to do art with Python programming. Some things yo
 * How computer graphics work
 * Some cool math
 
+For each lesson (in the `lessons` folder), just read the `README.md` file and follow along.
+
 ## Setup
 
 In order to follow along with this class, you must have:
