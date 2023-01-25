@@ -12,6 +12,9 @@ In the computer world, all pictures are made of pixels. Pixels are addressed by 
 
 ## Challenges
 
+For the following challenges, modify the `point.py` file...
+
+
 ### Challenge 1
 
 Change the color of the pixel from `red` to something else.
