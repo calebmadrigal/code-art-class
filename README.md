@@ -25,3 +25,8 @@ In order to follow along with this class, you must have:
 * A text editor which you can use to edit `.py` files (I recommend using [VS Code](https://code.visualstudio.com)).
 
 
+## Table of Contents
+
+* [Lesson 01](lessons/lesson01/README.md)
+* [Lesson 02](lessons/lesson02/README.md)
+

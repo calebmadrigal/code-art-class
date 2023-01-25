@@ -33,5 +33,5 @@ Draw a second line somewhere using the same techniques. Some ideas to try:
 
 * You could try adding some value to either the `x` or `y` coordinates like:
 
-    img1.point((i+10, i), fill ='red')
+    `img1.point((i+10, i), fill ='red')`
 
