@@ -2,7 +2,7 @@
 
 A class for learning to do art with math and code (Python).
 
-To get an idea of what sort of art is possible with these methods, check out my website: <https://gods.art>.
+To get an idea of what sort of art is possible with these methods, check out: <https://gods.art/math_art.html> - all the pictures on this page are made with the techniques taught in this class.
 
 ## Introduction
 
