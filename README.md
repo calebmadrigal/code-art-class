@@ -27,6 +27,6 @@ In order to follow along with this class, you must have:
 
 ## Table of Contents
 
-* [Lesson 01](lessons/lesson01/README.md)
-* [Lesson 02](lessons/lesson02/README.md)
+* [Lesson 01](lessons/lesson_01/README.md)
+* [Lesson 02](lessons/lesson_02/README.md)
 
