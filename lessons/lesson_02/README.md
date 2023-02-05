@@ -29,6 +29,30 @@ For the following challenges, modify the `line.py` file...
 
 ### Challenge 1
 
+Make flat horizontal line on top of image.
+
+### Challenge 2
+
+Make flat horizontal line on bottom of image.
+
+### Challenge 3
+
+Make flat vertical line on left of image.
+
+### Challenge 4
+
+Make flat vertical line on right of image.
+
+### Challenge 5
+
+Make flat vertical line in the center of the image.
+
+### Challenge 6
+
+Draw a second line so that there is a horizontal line in the middle of the image and a vertical line in the middle. Together, they should form a + sign.
+
+### Challenge 7
+
 Draw a second line somewhere using the same techniques. Some ideas to try:
 
 * You could try adding some value to either the `x` or `y` coordinates like:
