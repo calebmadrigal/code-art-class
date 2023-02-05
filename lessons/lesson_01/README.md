@@ -21,9 +21,30 @@ Change the color of the pixel from `red` to something else.
 
 ### Challenge 2
 
-Draw a point in the center of the picture. Hint: use the `img_width` and `img_height` variables.
+Draw point in top left
 
 ### Challenge 3
 
+Draw point in bottom right
+
+### Challenge 4
+
+Draw point in bottom left.
+
+### Challenge 5
+
+Draw point in top right.
+
+### Challenge 6
+
+Draw a point in the center so that its always in the center. Hint: use the `img_width` and `img_height` variables.
+
+### Challenge 7
+
+Draw a point in the center so that its always in the center (even if you resize the image). Hint: use the `img_width` and `img_height` variables.
+
+### Challenge 8
+
 Draw something by modifying the `point.py` program and draw more points. Draw a smily face or something else if you prefer.
+
 
