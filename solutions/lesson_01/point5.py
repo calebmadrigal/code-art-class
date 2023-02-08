@@ -1,3 +1,5 @@
+""" Challenge: Draw point in top right. """
+
 import sys
 from PIL import Image, ImageDraw
 
@@ -7,7 +9,8 @@ img_height = 101
 img = Image.new("RGB", (img_width, img_height))
 img1 = ImageDraw.Draw(img)
 
-img1.point((10, 10), fill ='red')
+# Draw point in top right
+img1.point((100, 0), fill='aqua')
 
 # Saves the picture
 img_path = sys.argv[0].split('.')[0]+'.png'

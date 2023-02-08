@@ -1,3 +1,5 @@
+""" Challenge: Draw point in bottom left. """
+
 import sys
 from PIL import Image, ImageDraw
 
@@ -7,7 +9,8 @@ img_height = 101
 img = Image.new("RGB", (img_width, img_height))
 img1 = ImageDraw.Draw(img)
 
-img1.point((10, 10), fill ='red')
+# NOTE: X and Y coordinates start with 0 (not 1), so that's why the bottom right pixel is (100, 100) rather than (101, 101).
+img1.point((0, 100), fill='aqua')
 
 # Saves the picture
 img_path = sys.argv[0].split('.')[0]+'.png'

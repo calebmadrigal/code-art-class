@@ -1,3 +1,5 @@
+""" Challenge: Change the color of the pixel from `red` to something else. """
+
 import sys
 from PIL import Image, ImageDraw
 
@@ -7,7 +9,7 @@ img_height = 101
 img = Image.new("RGB", (img_width, img_height))
 img1 = ImageDraw.Draw(img)
 
-img1.point((10, 10), fill ='red')
+img1.point((10, 10), fill='aqua')
 
 # Saves the picture
 img_path = sys.argv[0].split('.')[0]+'.png'

@@ -25,7 +25,7 @@ Note that we just use the same value for both x and y. But in order to do this i
 
 ## Challenges
 
-For the following challenges, modify the `line.py` file...
+For the following challenges, copy the `line.py` file to be `line1.py` for Challenge 1, `line2.py` for Challenge 2, etc.
 
 ### Challenge 1
 

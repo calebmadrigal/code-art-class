@@ -1,5 +1,7 @@
 # code-art-class
 
+TODO: Wizard theme
+
 A class for learning to do art with math and code (Python).
 
 To get an idea of what sort of art is possible with these methods, check out: <https://gods.art/math_art.html> - all the pictures on this page are made with the techniques taught in this class.
@@ -12,6 +14,9 @@ In this class, we'll learn how to do art with Python programming. Some things yo
 * How to use Python libraries
 * How computer graphics work
 * Some cool math
+* How to do some cool art
+
+TODO: Prerequisite knowledge
 
 For each lesson (in the `lessons` folder), just read the `README.md` file and follow along.
 
