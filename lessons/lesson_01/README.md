@@ -4,7 +4,7 @@
 
 In this lesson, we'll learn how to draw a point:
 
-<img src="point.png" width=500>
+<img src="../../solutions/lesson_01/point8.png" width=500>
 
 In the computer world, all pictures are made of pixels. Pixels are addressed by 2 numbers: X and Y. For example, the top left pixel in a picture is `(X=0, Y=0)`, or simply `(0, 0)`. To move to the right, you increase the value of `X`, and to move down, you increase the value of `Y`. Here's what this looks like:
 

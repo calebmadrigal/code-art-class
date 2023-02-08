@@ -1,3 +1,5 @@
+""" Challenge: Make flat vertical line on left of image. """
+
 import sys
 from PIL import Image, ImageDraw
 
@@ -8,8 +10,9 @@ img = Image.new("RGB", (img_width, img_height))
 img1 = ImageDraw.Draw(img)
 
 # Draw
-for i in range(101):
-    img1.point((i, i), fill='lime')
+for y in range(101):
+    # Since the x and y pixel coordinates start with the number 0, y=100 is the bottom of the image
+    img1.point((0, y), fill='lime')
 
 # Saves the picture
 img_path = sys.argv[0].split('.')[0]+'.png'

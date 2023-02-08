@@ -1,3 +1,5 @@
+""" Challenge: Make flat horizontal line on top of image. """
+
 import sys
 from PIL import Image, ImageDraw
 
@@ -8,8 +10,9 @@ img = Image.new("RGB", (img_width, img_height))
 img1 = ImageDraw.Draw(img)
 
 # Draw
-for i in range(101):
-    img1.point((i, i), fill='lime')
+for x in range(101):
+    # If we set y=0, we get a horizontal line on the top
+    img1.point((x, 0), fill='lime')
 
 # Saves the picture
 img_path = sys.argv[0].split('.')[0]+'.png'

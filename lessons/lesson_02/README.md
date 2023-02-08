@@ -50,12 +50,3 @@ Make flat vertical line in the center of the image.
 ### Challenge 6
 
 Draw a second line so that there is a horizontal line in the middle of the image and a vertical line in the middle. Together, they should form a + sign.
-
-### Challenge 7
-
-Draw a second line somewhere using the same techniques. Some ideas to try:
-
-* You could try adding some value to either the `x` or `y` coordinates like:
-
-    `img1.point((i+10, i), fill ='red')`
-

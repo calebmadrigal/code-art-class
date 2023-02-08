@@ -4,7 +4,7 @@
 
 In this lesson, we'll learn how to draw a point:
 
-<img src="square.png" width=500>
+<img src="../../solutions/lesson_03/square4.png" width=500>
 
 
 ## Challenges
