@@ -1,6 +1,5 @@
 """ Challenge: Use a compound conditional to cut off all 4 sides by 250 pixels, leaving a square in the middle. """
 
-import sys
 from PIL import Image, ImageDraw
 
 # Setup
@@ -17,7 +16,7 @@ for x in range(img_width):
             img1.point((x, y), fill='red')
 
 # Saves the picture
-img_path = sys.argv[0].split('.')[0]+'.png'
+img_path = __file__.replace('.py', '.png')
 img.save(img_path)
 print(f'Saved {img_path}')
 img.show()

@@ -1,6 +1,5 @@
 """ Challenge: Make flat vertical line on left of image. """
 
-import sys
 from PIL import Image, ImageDraw
 
 # Setup
@@ -14,7 +13,7 @@ for y in range(101):
     img1.point((100, y), fill='lime')
 
 # Saves the picture
-img_path = sys.argv[0].split('.')[0]+'.png'
+img_path = __file__.replace('.py', '.png')
 img.save(img_path)
 print(f'Saved {img_path}')
 img.show()

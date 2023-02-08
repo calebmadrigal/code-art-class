@@ -1,6 +1,5 @@
 """ Challenge: Draw point in top right. """
 
-import sys
 from PIL import Image, ImageDraw
 
 # Setup
@@ -14,7 +13,7 @@ img1 = ImageDraw.Draw(img)
 img1.point((img_width // 2, img_height // 2), fill='aqua')
 
 # Saves the picture
-img_path = sys.argv[0].split('.')[0]+'.png'
+img_path = __file__.replace('.py', '.png')
 img.save(img_path)
 print(f'Saved {img_path}')
 img.show()

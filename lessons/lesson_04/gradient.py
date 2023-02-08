@@ -1,9 +1,8 @@
-import sys
 from PIL import Image, ImageDraw
 
 # Setup
-img_width = 101
-img_height = 101
+img_width = 256
+img_height = 256
 img = Image.new("RGB", (img_width, img_height))
 img1 = ImageDraw.Draw(img)
 
@@ -13,7 +12,7 @@ for x in range(img_width):
         img1.point((x, y), fill = (x+y, 0, 255-(x+y)))
 
 # Saves the picture
-img_path = sys.argv[0].split('.')[0]+'.png'
+img_path = __file__.replace('.py', '.png')
 img.save(img_path)
 print(f'Saved {img_path}')
 img.show()

@@ -1,6 +1,5 @@
 """ Challenge: Make flat vertical line in the center of the image. """
 
-import sys
 from PIL import Image, ImageDraw
 
 # Setup
@@ -17,7 +16,7 @@ for x in range(101):
     img1.point((x, img_height // 2), fill='lime')
 
 # Saves the picture
-img_path = sys.argv[0].split('.')[0]+'.png'
+img_path = __file__.replace('.py', '.png')
 img.save(img_path)
 print(f'Saved {img_path}')
 img.show()
