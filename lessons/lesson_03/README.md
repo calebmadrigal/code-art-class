@@ -1,8 +1,8 @@
 # Code Art Class
 
-## Lesson 1: Draw a point
+## Lesson 1: Draw a square
 
-In this lesson, we'll learn how to draw a point:
+In this lesson, we'll learn how to draw squares and rectangles:
 
 <img src="../../solutions/lesson_03/square4.png" width=500>
 

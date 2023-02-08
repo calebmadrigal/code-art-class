@@ -32,7 +32,8 @@ In order to follow along with this class, you must have:
 
 ## Table of Contents
 
-* [Lesson 01](lessons/lesson_01/README.md)
-* [Lesson 02](lessons/lesson_02/README.md)
-* [Lesson 03](lessons/lesson_03/README.md)
+* [Lesson 01 - Draw points](lessons/lesson_01/README.md)
+* [Lesson 02 - Draw lines](lessons/lesson_02/README.md)
+* [Lesson 03 - Draw square](lessons/lesson_03/README.md)
+* [Lesson 04 - Colors](lessons/lesson_04/README.md)
 
