@@ -1,12 +1,14 @@
 from PIL import Image, ImageDraw
 
 # Setup
-img_width = 101
-img_height = 101
+img_width = 1000
+img_height = 1000
 img = Image.new("RGB", (img_width, img_height))
 draw = ImageDraw.Draw(img)
 
-draw.point((10, 10), fill ='red')
+# Draw
+for i in range(50):
+    draw.line([(img_width/2, 200), (i*(1000/50), 999)], width=1, fill=(200+i, 0, 0))
 
 # Saves the picture
 img_path = __file__.replace('.py', '.png')

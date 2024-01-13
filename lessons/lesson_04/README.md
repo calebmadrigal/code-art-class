@@ -2,9 +2,11 @@
 
 ## Lesson 4: Colors
 
-In this lesson, we'll learn how to draw a point:
+In this lesson, we'll learn how color works in computers.
 
-<img src="../../solutions/lesson_03/square4.png" width=500>
+Colors can be specified by name (list of color names [here](https://github.com/python-pillow/Pillow/blob/12028c9789c3c6ac15eb147a092bfc463ebbc398/src/PIL/ImageColor.py#L163)).
+
+
 
 
 ## Challenges
